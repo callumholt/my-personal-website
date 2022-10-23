@@ -1,3 +1,24 @@
 body {
-    background: blue;
+    background: rgb(151, 151, 187);
+}
+
+.column1 {
+    float: left;
+    background-color: aqua;
+    width: 30%;
+
+}
+
+.column2 {
+    float: left;
+    background-color: rgb(61, 216, 206);
+    width: 30%;
+
+}
+
+.column3 {
+    float: left;
+    background-color: rgb(123, 118, 224);
+    width: 30%;
+
 }
