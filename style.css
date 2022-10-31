@@ -1,24 +1,59 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+/* Style is below */
+
 body {
-    background: rgb(151, 151, 187);
+   background-color: #2a9d8f;
+   font-family: 'Inter', sans-serif;
+ 
 }
+
+
+/* Columns showing my skills */
 
 .column1 {
     float: left;
     background-color: aqua;
-    width: 30%;
+    width: 20%;
+    border-radius: 15px;
+    display: auto;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+
 
 }
 
 .column2 {
     float: left;
     background-color: rgb(61, 216, 206);
-    width: 30%;
+    width: 20%;
+    border-radius: 15px;
+    display: auto;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+
 
 }
 
 .column3 {
     float: left;
     background-color: rgb(123, 118, 224);
-    width: 30%;
+    width: 20%;
+    border-radius: 15px;
+    display: auto;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
 
+
+}
+ 
+
+
+#fname,#lname,#email,#mobile {
+    display: block;
 }
