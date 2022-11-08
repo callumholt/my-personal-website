@@ -10,6 +10,17 @@ body {
  
 }
 
+p {
+    padding-left: 1rem;
+}
+
+h2 {
+    padding-left: 1rem;
+}
+
+h3 {
+
+}
 
 /* Columns showing my skills */
 
@@ -62,9 +73,36 @@ button {
 }
 
 .btn {
-    width: 100%;
+    width: 60%;
+}
+
+.introduction {
+    text-align: center;
+    padding: 3rem;
+}
+
+.form {
+    text-align: center;
+    width: 40%;
+}
+
+.regoform {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.regoformSubmit {
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 0.5rem;
 }
 
 #fname,#lname,#email,#mobile {
     display: inline-block;
+}
+
+.resumeButton {
+    text-align: center;
+    padding: 3rem;
 }
