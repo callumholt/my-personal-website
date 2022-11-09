@@ -5,7 +5,7 @@
 /* Style is below */
 
 body {
-   background-color: #2a9d8f;
+   background-color: #2a9d8f !important;
    font-family: 'Inter', sans-serif;
  
 }
@@ -20,6 +20,21 @@ h2 {
 
 h3 {
     padding-left: 1rem;
+}
+
+.htmllist {
+    padding-left: 2px;
+    width: 30%;
+}
+
+.csslist {
+    padding-left: 30%;
+    width: 60%;
+}
+
+.gitlist {
+    padding-left: 60%;
+    width: 90%;
 }
 
 /* Columns showing my skills */
@@ -84,15 +99,15 @@ button {
 
 .btn {
     width: 60%;
-    transition: all ease !important;
-    transition-duration: 5s !important;
-    background-color: green !important;
+    /* background-color: green !important; */
     height: 50px;
 }
 
 .btn:hover {
     background-color: red !important;
     width: 80%;
+    transition: all ease !important;
+    transition-duration: 5s !important;
 }
 
 .introduction {
